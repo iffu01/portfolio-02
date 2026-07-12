@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #f5f8ff;
+}
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -126,11 +129,7 @@ nav ul li {
   color: #252432;
 }
 
-.footer-top {
-  background-color: rgba(78, 71, 255, 0.06);
-  width: 100%;
-  
-}
+
 .our-users {
   font-weight: bold;
   font-size: 42px;
@@ -165,8 +164,6 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
   gap: 50px;
   flex-direction: column;
 }
@@ -177,6 +174,7 @@ nav ul li {
 .touch {
   font-weight: bold;
   font-size: 97px;
+  display: flex;
   align-items: center;
 }
 .get {
@@ -188,8 +186,7 @@ nav ul li {
   width: 100%;
 }
 footer input[type="text"],
-footer input[type="email"],
-footer {
+footer input[type="email"] {
   height: 64px;
   border-radius: 10px;
   background-color: white;
@@ -213,6 +210,7 @@ footer textarea {
   border: none;
   font-size: 20px;
   font-weight: 400;
+  font-family: "Inter", sans-serif;
 }
 .form {
   font-size: 18px;
@@ -223,9 +221,9 @@ footer textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
   gap: 30px;
+  background-color: white;
+  padding: 100px 0  ;
 }
 .logo {
   font-weight: 900;
@@ -242,4 +240,11 @@ footer textarea {
 footer a {
   text-decoration: none;
   color: #bdbbbb;
+}
+.focus-section{
+  background: #fff;
+  margin: 150px;
+  padding: 50px;
+  border-radius: 14px;
+
 }
